@@ -4,7 +4,9 @@ HTML-Präsentation für die Format-Abschlusstagung. Die sieben Folien zeigen die
 
 ## Präsentation öffnen
 
-Das Repository herunterladen oder klonen und im Projektordner starten:
+[Präsentation direkt im Browser ansehen](https://thorbenjansen.github.io/pisa-2025-ai-writing-talk/)
+
+Für die lokale Nutzung das Repository herunterladen oder klonen und im Projektordner starten:
 
 ```bash
 python3 -m http.server 8765
