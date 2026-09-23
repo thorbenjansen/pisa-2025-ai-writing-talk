@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Format Abschlusstagung | PISA 2025</title>
+    <meta name="description" content="Format Abschlusstagung: PISA-2025-Folien aus den Forschungsvorträgen Dortmund und München." />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230447ff'/%3E%3Cpath d='M8 9h16M8 16h16M8 23h11' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="progress" aria-hidden="true"><div id="progressBar"></div></div>
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark" aria-hidden="true"></span><span>Format Abschlusstagung</span><span class="brand-subject">Thorben Jansen · PISA 2025</span></div>
+      <nav class="controls" aria-label="Foliensteuerung">
+        <span id="slideBadge" aria-live="polite">Folie 1 / 7</span>
+        <button type="button" data-open="hilfe-dialog" aria-label="Hilfe zur Präsentation">?</button>
+        <button type="button" id="previousSlide" aria-label="Vorherige Folie">↑</button>
+        <button type="button" id="nextSlide" aria-label="Nächste Folie">↓</button>
+        <button type="button" id="fullscreen" aria-label="Vollbild">⛶</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="slide study-slide" id="studie" aria-labelledby="studie-title">
+        <p class="eyebrow">PISA 2025 · deutsche Erweiterungsstudie</p>
+        <img class="pisa-logo" src="assets/pisa_oecd_logo.jpeg" alt="PISA OECD" />
+        <h1 id="studie-title">Format Abschlusstagung</h1>
+        <p class="study-subtitle">PISA 2025: Schreiben mit und ohne KI-Unterstützung</p>
+        <div class="study-facts">
+          <p>1.699 Schüler:innen aus Deutschland, 15 Jahre alt <span aria-hidden="true">·</span> Zwei Texte à 30 Minuten <span aria-hidden="true">·</span> Textprodukte und Prozessdaten</p>
+          <p>Weitere Daten: Lesen <span aria-hidden="true">·</span> Science <span aria-hidden="true">·</span> Mathematik <span aria-hidden="true">·</span> (Englisch-Kompetenzen) <span aria-hidden="true">·</span> motivationale Fragebögen</p>
+        </div>
+        <div class="task-grid">
+          <figure>
+            <figcaption>Ohne KI-Unterstützung</figcaption>
+            <a class="figure-link" href="assets/pisa_task_without_ai_support.png" target="_blank" rel="noopener" aria-label="Aufgabe ohne KI in Originalgröße öffnen">
+              <img src="assets/pisa_task_without_ai_support.png" alt="Bildschirmansicht der PISA-Schreibaufgabe ohne KI-Unterstützung" />
+            </a>
+          </figure>
+          <figure>
+            <figcaption>Mit KI-Unterstützung <small>Bild anklicken: Prozess-Replay</small></figcaption>
+            <a class="figure-link" href="assets/pisa_replay_preloaded_student.html" target="_blank" rel="noopener" aria-label="Vorbefülltes PISA-Prozess-Replay öffnen">
+              <img src="assets/pisa_task_with_ai_support.png" alt="Bildschirmansicht der PISA-Schreibaufgabe mit KI-Unterstützung" />
+            </a>
+          </figure>
+        </div>
+      </section>
+
+      <section class="slide distribution-slide" id="textqualitaet" aria-labelledby="textqualitaet-title">
+        <p class="eyebrow">Textprodukte · Vorstichprobe</p>
+        <h1 id="textqualitaet-title">Mit Chatbot geschriebene Texte erhalten höhere Bewertungen</h1>
+        <div class="distribution-layout">
+          <a class="figure-link distribution-figure" href="assets/chatbot_score_distribution_density_plots.png" target="_blank" rel="noopener" aria-label="Verteilungsgrafik in Originalgröße öffnen">
+            <img src="assets/chatbot_score_distribution_density_plots.png" alt="Dichteplots der Bewertungen für Inhalt, holistische Qualität, Sprachqualität und Organisation, jeweils mit und ohne Chatbot-Unterstützung" />
+          </a>
+        </div>
+        <div class="result-gallery" aria-label="Weitere PISA-Ergebnisse vergrößern">
+          <button type="button" class="result-card" data-gallery="scoring" aria-label="Bewertung während des Schreibens groß öffnen">
+            <span class="result-card-image"><img src="assets/automated_scoring_performance_over_time.png" alt="" /></span>
+            <span class="result-card-label">Bewertung während des Schreibens <span aria-hidden="true">↗</span></span>
+          </button>
+          <button type="button" class="result-card" data-gallery="keystrokes" aria-label="Schreibaktivität groß öffnen">
+            <span class="result-card-image result-card-pair"><img src="assets/keystrokes_quality_without_ai.png" alt="" /><img src="assets/keystrokes_quality_with_ai.png" alt="" /></span>
+            <span class="result-card-label">Schreibaktivität <span aria-hidden="true">↗</span></span>
+          </button>
+          <button type="button" class="result-card" data-gallery="paste" aria-label="Paste Events groß öffnen">
+            <span class="result-card-image"><img src="assets/paste_events_quality_with_ai.png" alt="" /></span>
+            <span class="result-card-label">Paste Events <span aria-hidden="true">↗</span></span>
+          </button>
+          <button type="button" class="result-card" data-gallery="arguments" aria-label="Argumentkodierung groß öffnen">
+            <span class="result-card-image"><img src="assets/argument_type_frequency_by_ai_condition.svg" alt="" /></span>
+            <span class="result-card-label">Argumentkodierung <span aria-hidden="true">↗</span></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="slide correlations-slide" id="korrelationen" aria-labelledby="correlations-title">
+        <h1 class="visually-hidden" id="correlations-title">Korrelationen zwischen Kompetenzen und Schreibscores</h1>
+        <div class="correlations-heading">
+          <p class="eyebrow">Kompetenzen und Schreibscores · Pearson r</p>
+        </div>
+        <a class="figure-link correlations-figure" href="assets/figure_real_writing_domain_correlations_paired_sample.png" target="_blank" rel="noopener" aria-label="Korrelationsmatrix in Originalgröße öffnen">
+          <img src="assets/figure_real_writing_domain_correlations_paired_sample.png" alt="Pearson-Korrelationsmatrix der gepaarten Schreibstichprobe für Mathematik, Lesen, Science und Schreibscores ohne und mit KI; die Zellen zeigen Korrelationen und paarweise Fallzahlen" />
+        </a>
+      </section>
+
+      <section class="slide reference-slide" id="offloading-konzept" aria-labelledby="offloading-concept-title">
+        <p class="eyebrow">Offloading · Konzept</p>
+        <h1 id="offloading-concept-title">Offloading Score</h1>
+        <div class="reference-grid">
+          <figure>
+            <a class="figure-link" href="assets/offloading_reference_paper.png" target="_blank" rel="noopener" aria-label="Studienausschnitt zum Offloading Score in Originalgröße öffnen">
+              <img src="assets/offloading_reference_paper.png" alt="Titel und Autorinnen und Autoren von Offloading Score: Measuring AI Reliance Through Counterfactual Workflows" />
+            </a>
+          </figure>
+          <figure>
+            <a class="figure-link" href="assets/offloading_reference_figure.png" target="_blank" rel="noopener" aria-label="Konzeptabbildung zum Offloading Score in Originalgröße öffnen">
+              <img src="assets/offloading_reference_figure.png" alt="Beispielhafte Workflows und Offloading-Score-Konzept mit zwei Nutzenden" />
+            </a>
+          </figure>
+        </div>
+      </section>
+
+      <section class="slide offloading-slide" id="offloading" aria-labelledby="offloading-title">
+        <p class="eyebrow">Schreibprozess · Offloading</p>
+        <h1 id="offloading-title">Offloading hängt von der Handlungseinheit ab</h1>
+        <div class="offloading-controls" aria-label="Offloading-Abbildung auswählen">
+          <label class="offloading-field" for="offloading-operation">
+            <span>Operationalisierung</span>
+            <select id="offloading-operation">
+              <option value="A">Mikro-Schreibaktionen (bis 3 Wörter)</option>
+              <option value="B">Schreibblöcke (10 Wörter)</option>
+              <option value="C">Schreibepisoden (5 Sekunden)</option>
+              <option value="D">Satzbezogene Schreibaktionen</option>
+              <option value="E">Menscheninitiierte Workflow-Handlungen</option>
+            </select>
+          </label>
+          <label class="offloading-field" for="offloading-view">
+            <span>Ansicht</span>
+            <select id="offloading-view">
+              <option value="distribution">Verteilung</option>
+              <option value="quality_change">Nach Textqualitätsänderung</option>
+              <option value="prompt_purpose">Nach dominantem Chat-Promptzweck</option>
+            </select>
+          </label>
+        </div>
+        <a id="offloading-image-link" class="figure-link offloading-figure" href="assets/A_microbursts_01_distribution.png" target="_blank" rel="noopener" aria-label="Offloading-Abbildung in Originalgröße öffnen">
+          <img id="offloading-image" src="assets/A_microbursts_01_distribution.png" alt="Verteilung des symmetrischen Offloading-Scores für Mikro-Schreibaktionen" />
+        </a>
+        <p id="offloading-caption" class="offloading-caption" aria-live="polite">1.069 Schüler:innen · Score −1 = Ausweitung eigener Arbeit, +1 = Offloading · gleiche Personen in allen Ansichten</p>
+      </section>
+      <section class="slide reference-slide" id="human-agency-konzept" aria-labelledby="agency-concept-title">
+        <p class="eyebrow">Human Agency · Konzept</p>
+        <h1 id="agency-concept-title">Human Agency Scale</h1>
+        <div class="reference-grid">
+          <figure>
+            <figcaption>Studie</figcaption>
+            <a class="figure-link" href="assets/human_agency_reference_paper.png" target="_blank" rel="noopener" aria-label="Studienausschnitt zur Human Agency Scale in Originalgröße öffnen">
+              <img src="assets/human_agency_reference_paper.png" alt="Titelseite und Abstract von Human-AI Collaboration at Scale" />
+            </a>
+          </figure>
+          <figure>
+            <figcaption>Skala und Verteilung</figcaption>
+            <a class="figure-link" href="assets/human_agency_reference_figure.png" target="_blank" rel="noopener" aria-label="Abbildung zur Human Agency Scale in Originalgröße öffnen">
+              <img src="assets/human_agency_reference_figure.png" alt="Human Agency Scale H1 bis H5 und Verteilung über Aufgabenarten" />
+            </a>
+          </figure>
+        </div>
+      </section>
+
+      <section class="slide agency-slide" id="human-agency-scale" aria-labelledby="agency-title">
+        <h1 class="visually-hidden" id="agency-title">Human Agency Scale in PISA AI-supported writing</h1>
+        <div class="agency-heading">
+          <p class="eyebrow">Human Agency · KI-unterstütztes Schreiben</p>
+        </div>
+        <a class="figure-link agency-figure" href="assets/PISA_HAS_reference_style_updated_values_2026-09-23.png" target="_blank" rel="noopener" aria-label="Human Agency Scale in Originalgröße öffnen">
+          <img src="assets/PISA_HAS_reference_style_updated_values_2026-09-23.png" alt="Human Agency Scale H1 bis H5 mit Verteilungen nach Textqualität ohne KI, Schreibselbstwirksamkeit, Aufgabenengagement und Aufgabeninteresse in der gepaarten PISA-Schreibstichprobe" />
+        </a>
+      </section>
+
+    </main>
+
+    <dialog id="hilfe-dialog" class="detail-dialog help-dialog" aria-labelledby="hilfe-title">
+      <button type="button" class="dialog-close" data-close>Schließen</button>
+      <h2 id="hilfe-title">Präsentation steuern</h2>
+      <p>Mit den Pfeiltasten, Bild-auf/ab, Leertaste oder den Schaltflächen oben zwischen den sieben Folien wechseln.</p>
+      <p>Die KI-Aufgabe öffnet das vorbefüllte Prozess-Replay. Auf der Folie zur Textqualität öffnen sich die Bewertungs- und Ergebnisbilder groß. Auf der Offloading-Folie wählen Sie Handlungseinheit und Ansicht unabhängig voneinander.</p>
+    </dialog>
+    <dialog id="gallery-dialog" class="detail-dialog gallery-dialog" aria-labelledby="gallery-title">
+      <button type="button" class="dialog-close" data-close>Schließen</button>
+      <p class="eyebrow">PISA-Ergebnisansicht</p>
+      <h2 id="gallery-title"></h2>
+      <div id="gallery-images" class="gallery-images"></div>
+      <p id="gallery-description" class="gallery-description"></p>
+    </dialog>
+  </body>
+</html>
