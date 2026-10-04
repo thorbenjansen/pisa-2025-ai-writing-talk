@@ -6,7 +6,7 @@
     <title>Format Abschlusstagung | PISA 2025</title>
     <meta name="description" content="Format Abschlusstagung: PISA-2025-Folien aus den Forschungsvorträgen Dortmund und München." />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230447ff'/%3E%3Cpath d='M8 9h16M8 16h16M8 23h11' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css?v=20261004-framework" />
     <script src="script.js" defer></script>
   </head>
   <body>
@@ -14,7 +14,7 @@
     <header class="topbar">
       <div class="brand"><span class="brand-mark" aria-hidden="true"></span><span>Format Abschlusstagung</span><span class="brand-subject">Thorben Jansen · PISA 2025</span></div>
       <nav class="controls" aria-label="Foliensteuerung">
-        <span id="slideBadge" aria-live="polite">Folie 1 / 7</span>
+        <span id="slideBadge" aria-live="polite">Folie 1 / 9</span>
         <button type="button" data-open="hilfe-dialog" aria-label="Hilfe zur Präsentation">?</button>
         <button type="button" id="previousSlide" aria-label="Vorherige Folie">↑</button>
         <button type="button" id="nextSlide" aria-label="Nächste Folie">↓</button>
@@ -46,6 +46,15 @@
             </a>
           </figure>
         </div>
+      </section>
+
+      <section class="slide framework-slide" id="framework" aria-labelledby="framework-title">
+        <p class="eyebrow">Offloading · Lernen und Leistung</p>
+        <h1 id="framework-title">Augmentation–Erosion-Framework</h1>
+        <a class="figure-link framework-figure" href="assets/augmentation_erosion_framework.png" target="_blank" rel="noopener" aria-label="Augmentation–Erosion-Framework in Originalgröße öffnen">
+          <img src="assets/augmentation_erosion_framework.png" alt="Theoretisches Modell: Lernziele, Motivation, Aufgabendesign und Regulation bestimmen die Mensch-KI-Arbeitsteilung. Zentrale Verarbeitung führt zu dauerhaftem Lernen ohne KI; KI-gestützte Leistung ist davon unterscheidbar. Vorwissen und Regulierungskompetenz moderieren die Verarbeitung; flüssiger Output kann Lernurteile verzerren." />
+        </a>
+        <p class="framework-takeaway">Entscheidend ist, ob die für das Lernziel zentrale Denkarbeit erhalten bleibt oder später selbst rekonstruiert wird.</p>
       </section>
 
       <section class="slide distribution-slide" id="textqualitaet" aria-labelledby="textqualitaet-title">
@@ -160,12 +169,21 @@
         </a>
       </section>
 
+      <section class="slide framework-slide framework-mapping-slide" id="framework-pisa" aria-labelledby="framework-pisa-title">
+        <p class="eyebrow">PISA · Verortung unserer Daten</p>
+        <h1 id="framework-pisa-title">Welche Teile des Frameworks erfassen wir?</h1>
+        <a class="figure-link framework-figure" href="assets/pisa_framework_data_mapping.svg?v=20261004-final" target="_blank" rel="noopener" aria-label="Zuordnung der PISA-Daten zum Framework in Originalgröße öffnen">
+          <img src="assets/pisa_framework_data_mapping.svg?v=20261004-final" alt="Datenzuordnung zum Framework. Vorhanden: motivationale Fragebögen, Aufgabendesign, Offloading Score, Human Agency Scale und KI-gestützte Textleistung. Indirekter Zugang: Prozessregulation, zentrale Verarbeitung und fachliches Vorwissen. Zusätzliche Messungen nötig: Regulierungskompetenz, erlebte Output-Flüssigkeit, Lernurteile und verzögerter Transfer ohne KI. Die Übersicht ordnet Daten zu Konstrukten zu und prüft keine Kausalpfade." />
+        </a>
+        <p class="framework-takeaway">Offloading und HAS beschreiben die Arbeitsteilung. Ob dabei lernzielrelevante Verarbeitung erhalten bleibt, muss gesondert kodiert werden.</p>
+      </section>
+
     </main>
 
     <dialog id="hilfe-dialog" class="detail-dialog help-dialog" aria-labelledby="hilfe-title">
       <button type="button" class="dialog-close" data-close>Schließen</button>
       <h2 id="hilfe-title">Präsentation steuern</h2>
-      <p>Mit den Pfeiltasten, Bild-auf/ab, Leertaste oder den Schaltflächen oben zwischen den sieben Folien wechseln.</p>
+      <p>Mit den Pfeiltasten, Bild-auf/ab, Leertaste oder den Schaltflächen oben zwischen den neun Folien wechseln.</p>
       <p>Die KI-Aufgabe öffnet das vorbefüllte Prozess-Replay. Auf der Folie zur Textqualität öffnen sich die Bewertungs- und Ergebnisbilder groß. Auf der Offloading-Folie wählen Sie Handlungseinheit und Ansicht unabhängig voneinander.</p>
     </dialog>
     <dialog id="gallery-dialog" class="detail-dialog gallery-dialog" aria-labelledby="gallery-title">

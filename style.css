@@ -224,3 +224,16 @@ h1 { margin: 0 0 18px; max-width: 1100px; font-family: var(--display); font-size
   .progress, .topbar { display: none; }
   .slide { height: 100vh; min-height: 0; page-break-after: always; padding-top: 34px; }
 }
+
+/* Framework and source-grounded placement of the PISA measures. */
+.framework-slide { padding-top: 70px; padding-bottom: 24px; }
+.framework-slide h1 { font-size: clamp(40px, 3.7vw, 58px); max-width: none; margin-bottom: 12px; }
+.framework-figure { flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; }
+.framework-figure img { width: auto; height: 100%; max-width: 100%; max-height: 100%; object-fit: contain; }
+.framework-takeaway { margin: 12px 0 0; font-size: 17px; line-height: 1.4; text-align: center; color: #4e4a46; }
+.framework-mapping-slide .framework-figure img { width: 100%; }
+@media (max-width: 900px) {
+  .framework-slide { padding: 28px 18px 42px; }
+  .framework-figure img { width: 100%; height: auto; max-height: none; }
+  .framework-takeaway { font-size: 16px; text-align: left; }
+}

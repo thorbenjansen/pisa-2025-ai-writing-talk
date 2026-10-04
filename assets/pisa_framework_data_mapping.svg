@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" role="img" aria-labelledby="title desc">
+<title id="title">PISA-Daten: Zuordnung zu den Konstrukten des Frameworks</title>
+<desc id="desc">Eigenständige Übersicht über vorhandene Daten, indirekte Zugänge und zusätzlich nötige Messungen. Die Übersicht ist keine Wiedergabe des Kausaldiagramms.</desc>
+<rect width="1400" height="720" fill="#fdfcfc"/>
+<g font-family="Inter, Arial, sans-serif">
+<text x="10" y="34" font-size="27" font-weight="700" fill="#0447ff">Daten vorhanden</text>
+<rect x="10" y="65" width="440" height="144" rx="8" fill="#eef3ff" stroke="#0447ff" stroke-width="2"/>
+<text x="30" y="101" font-size="25" font-weight="700" fill="#111">Aufgabe &amp; Design</text>
+<text x="30" y="137" font-size="22" fill="#49443e">Zwei Texte à 30 Minuten</text>
+<text x="30" y="164" font-size="22" fill="#49443e">mit und ohne KI</text>
+<rect x="10" y="223" width="440" height="144" rx="8" fill="#eef3ff" stroke="#0447ff" stroke-width="2"/>
+<text x="30" y="259" font-size="25" font-weight="700" fill="#111">Ziele &amp; Motivation</text>
+<text x="30" y="295" font-size="22" fill="#49443e">Interesse und Engagement</text>
+<text x="30" y="322" font-size="22" fill="#49443e">Schreibselbstwirksamkeit</text>
+<rect x="10" y="381" width="440" height="144" rx="8" fill="#eef3ff" stroke="#0447ff" stroke-width="2"/>
+<text x="30" y="417" font-size="25" font-weight="700" fill="#111">Arbeitsteilung Mensch–KI</text>
+<text x="30" y="453" font-size="22" fill="#49443e">Offloading Score und HAS</text>
+<text x="30" y="480" font-size="22" fill="#49443e">Verhaltensindikatoren</text>
+<rect x="10" y="539" width="440" height="144" rx="8" fill="#eef3ff" stroke="#0447ff" stroke-width="2"/>
+<text x="30" y="575" font-size="25" font-weight="700" fill="#111">KI-gestützte Leistung</text>
+<text x="30" y="611" font-size="22" fill="#49443e">Textscores mit KI</text>
+<text x="30" y="638" font-size="22" fill="#49443e">Referenz: Textscores ohne KI</text>
+<text x="480" y="34" font-size="27" font-weight="700" fill="#986514">Indirekter Zugang</text>
+<rect x="480" y="65" width="440" height="144" rx="8" fill="#fff8e9" stroke="#986514" stroke-width="2"/>
+<text x="500" y="101" font-size="25" font-weight="700" fill="#111">Regulation im Prozess</text>
+<text x="500" y="137" font-size="22" fill="#49443e">Chats, Einfügungen, Revisionen</text>
+<text x="500" y="164" font-size="22" fill="#49443e">als sichtbare Verhaltensspuren</text>
+<rect x="480" y="223" width="440" height="144" rx="8" fill="#fff8e9" stroke="#986514" stroke-width="2"/>
+<text x="500" y="259" font-size="25" font-weight="700" fill="#111">Zentrale Verarbeitung</text>
+<text x="500" y="295" font-size="22" fill="#49443e">Chat und Überarbeitung als Hinweise</text>
+<text x="500" y="322" font-size="22" fill="#49443e">Internes Denken bleibt unbeobachtet</text>
+<rect x="480" y="381" width="440" height="144" rx="8" fill="#fff8e9" stroke="#986514" stroke-width="2"/>
+<text x="500" y="417" font-size="25" font-weight="700" fill="#111">Fachliches Vorwissen</text>
+<text x="500" y="453" font-size="22" fill="#49443e">Lesen · Mathe · Science</text>
+<text x="500" y="480" font-size="22" fill="#49443e">Textleistung ohne KI</text>
+<text x="500" y="507" font-size="22" fill="#49443e">Passung zum Schreibziel prüfen</text>
+<rect x="480" y="539" width="440" height="144" rx="8" fill="#fff8e9" stroke="#986514" stroke-width="2"/>
+<text x="500" y="575" font-size="25" font-weight="700" fill="#111">Lernzielbezug noch zu kodieren</text>
+<text x="500" y="611" font-size="22" fill="#49443e">Welche Operationen sind zentral</text>
+<text x="500" y="638" font-size="22" fill="#49443e">für argumentatives Schreiben?</text>
+<text x="950" y="34" font-size="27" font-weight="700" fill="#777169">Zusätzliche Messung nötig</text>
+<rect x="950" y="65" width="440" height="144" rx="8" fill="#f3f2f0" stroke="#777169" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="970" y="101" font-size="25" font-weight="700" fill="#111">Regulierungskompetenz</text>
+<text x="970" y="137" font-size="22" fill="#49443e">Vignetten, Fehlerprüfung</text>
+<text x="970" y="164" font-size="22" fill="#49443e">Rekonstruktion ohne KI</text>
+<rect x="950" y="223" width="440" height="144" rx="8" fill="#f3f2f0" stroke="#777169" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="970" y="259" font-size="25" font-weight="700" fill="#111">Erlebte Output-Leichtigkeit</text>
+<text x="970" y="295" font-size="22" fill="#49443e">Sprachqualität allein misst</text>
+<text x="970" y="322" font-size="22" fill="#49443e">dieses Erleben nicht</text>
+<rect x="950" y="381" width="440" height="144" rx="8" fill="#f3f2f0" stroke="#777169" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="970" y="417" font-size="25" font-weight="700" fill="#111">Lernurteile &amp; Kalibrierung</text>
+<text x="970" y="453" font-size="22" fill="#49443e">Urteile zum eigenen Lernen</text>
+<text x="970" y="480" font-size="22" fill="#49443e">mit späterer Leistung abgleichen</text>
+<rect x="950" y="539" width="440" height="144" rx="8" fill="#f3f2f0" stroke="#777169" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="970" y="575" font-size="25" font-weight="700" fill="#111">Dauerhaftes Lernen</text>
+<text x="970" y="611" font-size="22" fill="#49443e">Verzögerter Transfer ohne KI</text>
+<text x="970" y="638" font-size="22" fill="#49443e">in gezeigten Daten nicht abgedeckt</text>
+</g></svg>
